@@ -13,6 +13,6 @@ int main(void) {
 	for(sum = 0, i = 0; i<SIZEOF(array); i++) {
 		sum += ARRAYOF(array)[i];
 	}
-	printf("sum = %d\n", sum);
+	printf("sum = %u\n", sum);
 
 }
